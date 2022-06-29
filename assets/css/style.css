@@ -171,7 +171,7 @@ li {
   background-color: #2b2827;
   text-transform: capitalize;
 }
-li:hover{
+.active ,li:hover{
   box-shadow: 0 0 5px #2b2827;
   color: #462420;
 }
