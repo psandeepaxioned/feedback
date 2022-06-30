@@ -131,9 +131,9 @@ body{
   transform: translate(0, 0);
   background-color: #ffffff;
 }
-/* section.review{
-  display: none;
-} */
+section.review{
+  display: block;
+}
 
 h3 {
   font-size: 17px;
