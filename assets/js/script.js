@@ -17,15 +17,11 @@ modes.forEach((item, idx) => {
     sendreview.addEventListener("click", () => {
       document.querySelector(".review-received").innerHTML =
         "feedback: " + contents;
+      document.querySelector(".review").style.display = "none"; 
       document.querySelector(".feedback").style.display = "block";
-      // feedbacksection();
     });
   });
 });
-// function feedbacksection(){
-
-//     sendreview.classList.add(section.feedback)
-// }
 
 function removeclassactive() {
   modes.forEach((moods) => moods.classList.remove("active"));
